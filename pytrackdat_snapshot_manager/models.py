@@ -25,7 +25,6 @@ from django.conf import settings
 from django.db import models, transaction
 from django.db.models.signals import pre_delete
 from django.dispatch import receiver
-from django.http import HttpResponse, Http404
 
 
 class Snapshot(models.Model):
