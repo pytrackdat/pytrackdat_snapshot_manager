@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -27,6 +27,6 @@ setup(
     author="David Lougheed",
     author_email="david.lougheed@gmail.com",
 
-    packages=["pytrackdat_snapshot_manager"],
+    packages=find_packages(),
     include_package_data=True
 )
