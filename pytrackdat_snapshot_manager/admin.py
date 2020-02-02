@@ -20,7 +20,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 
-from snapshot_manager.models import *
+from pytrackdat_snapshot_manager.models import *
 
 
 @admin.register(Snapshot)
