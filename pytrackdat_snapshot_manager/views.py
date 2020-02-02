@@ -41,3 +41,8 @@ def download_view(request, snapshot_id):
 
     except Snapshot.DoesNotExist:
         raise Http404("Snapshot does not exist")
+
+
+urls = [
+    path("snapshots/<int:snapshot_id>/download/", download_view, name="snapshot-download"),
+]
