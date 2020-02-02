@@ -10,7 +10,7 @@ setup(
     version="0.1.0",
 
     python_requires="~=3.6",
-    install_requires=["Django>=2.2.8,<3.0"],
+    install_requires=["Django>=2.2.9,<3.0"],
 
     description='Snapshot manager Django app for PyTrackDat sites.',
     long_description=long_description,
